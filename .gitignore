@@ -97,3 +97,28 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+########################################
+# IDE — JetBrains Rider / IntelliJ
+########################################
+
+.idea/
+**/.idea/
+*.sln.iml
+*.suo
+*.user
+*.userprefs
+
+########################################
+# IDE — Visual Studio / VS Code
+########################################
+
+.vs/
+.vscode/
+
+########################################
+# MAST previews
+########################################
+
+**/_MAST_Thumbnails/
+**/_MAST_Thumbnails.meta

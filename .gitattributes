@@ -1,0 +1,57 @@
+########################################
+# Text source files
+########################################
+*.cs            text diff=csharp eol=lf
+*.cginc         text eol=lf
+*.shader        text eol=lf
+*.compute       text eol=lf
+########################################
+# Unity YAML files — Smart Merge
+########################################
+*.unity         merge=unityyamlmerge eol=lf
+*.prefab        merge=unityyamlmerge eol=lf
+*.asset         merge=unityyamlmerge eol=lf
+*.mat           merge=unityyamlmerge eol=lf
+*.anim          merge=unityyamlmerge eol=lf
+*.controller    merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.physicMaterial    merge=unityyamlmerge eol=lf
+*.meta          merge=unityyamlmerge eol=lf
+*.asmdef        merge=unityyamlmerge eol=lf
+*.asmref        merge=unityyamlmerge eol=lf
+########################################
+# Git LFS — Binary Assets
+########################################
+# Images
+*.jpg           filter=lfs diff=lfs merge=lfs -text
+*.jpeg          filter=lfs diff=lfs merge=lfs -text
+*.png           filter=lfs diff=lfs merge=lfs -text
+*.gif           filter=lfs diff=lfs merge=lfs -text
+*.psd           filter=lfs diff=lfs merge=lfs -text
+*.ai            filter=lfs diff=lfs merge=lfs -text
+*.tif           filter=lfs diff=lfs merge=lfs -text
+*.tga           filter=lfs diff=lfs merge=lfs -text
+*.exr           filter=lfs diff=lfs merge=lfs -text
+# Audio
+*.wav           filter=lfs diff=lfs merge=lfs -text
+*.mp3           filter=lfs diff=lfs merge=lfs -text
+*.ogg           filter=lfs diff=lfs merge=lfs -text
+*.aif           filter=lfs diff=lfs merge=lfs -text
+# Video
+*.mp4           filter=lfs diff=lfs merge=lfs -text
+*.mov           filter=lfs diff=lfs merge=lfs -text
+# 3D Models
+*.fbx           filter=lfs diff=lfs merge=lfs -text
+*.FBX           filter=lfs diff=lfs merge=lfs -text
+*.blend         filter=lfs diff=lfs merge=lfs -text
+*.obj           filter=lfs diff=lfs merge=lfs -text
+*.lxo           filter=lfs diff=lfs merge=lfs -text
+# Fonts
+*.ttf           filter=lfs diff=lfs merge=lfs -text
+*.otf           filter=lfs diff=lfs merge=lfs -text
+# Other binaries
+*.dll           filter=lfs diff=lfs merge=lfs -text
+*.zip           filter=lfs diff=lfs merge=lfs -text
+*.pdf           filter=lfs diff=lfs merge=lfs -text
+*.unitypackage  filter=lfs diff=lfs merge=lfs -text
+Assets/Rhinox[[:space:]]Studio/RPG[[:space:]]-[[:space:]]Stylized[[:space:]]Fantasy[[:space:]]Environment[[:space:]]URP/terrain/Terrain.asset filter=lfs diff=lfs merge=lfs -text
