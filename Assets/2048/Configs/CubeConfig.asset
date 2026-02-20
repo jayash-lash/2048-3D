@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d145020df2b245a7ad4c66753aa776cb, type: 3}
+  m_Name: CubeConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.CubeConfig
+  _spawnWeights:
+  - Value: 2
+    Weight: 75
+  - Value: 4
+    Weight: 25
+  _cubePrefab: {fileID: 6891278779893359717, guid: 769a189245e814ae8aebcbf8220cbef7, type: 3}
+  _poolStartSize: 20
+  _poolIncreaseSizeBy: 5
+  _visualDataList:
+  - _value: 2
+    _color: {r: 0.9245283, g: 0.87963283, b: 0.17880027, a: 0}
+    _material: {fileID: 2100000, guid: 83bcbb247dc154869bd9a03f328efa7c, type: 2}
+  - _value: 4
+    _color: {r: 0.9254902, g: 0.6928253, b: 0.18039215, a: 0}
+    _material: {fileID: 2100000, guid: 4880972e4b09b434f8f7904a76e041ac, type: 2}
+  - _value: 8
+    _color: {r: 0.9254902, g: 0.54600114, b: 0.18039215, a: 0}
+    _material: {fileID: 2100000, guid: 2fb54ddce68c0479999c79310baf71c0, type: 2}
+  - _value: 16
+    _color: {r: 0.9254902, g: 0.43250299, b: 0.18039215, a: 0}
+    _material: {fileID: 2100000, guid: 21c081f0180cb43d1b5126a0f80c72ba, type: 2}
+  - _value: 32
+    _color: {r: 0.9254902, g: 0.35557464, b: 0.18039215, a: 0}
+    _material: {fileID: 2100000, guid: afcdbfa43f7fc4e7ea2f4373cc5c9342, type: 2}
+  - _value: 64
+    _color: {r: 0.9254902, g: 0.18039215, b: 0.84017783, a: 0}
+    _material: {fileID: 2100000, guid: d83103ae04fc949ba960a1acb0cfc995, type: 2}
+  - _value: 128
+    _color: {r: 0.53296, g: 0.18039215, b: 0.9254902, a: 0}
+    _material: {fileID: 2100000, guid: 545e70ffd9829453e803ab27961e2e64, type: 2}
+  - _value: 256
+    _color: {r: 0.25015724, g: 0.1779548, b: 0.8773585, a: 0}
+    _material: {fileID: 2100000, guid: 265f959b5cabf49e88c82fcd1046733d, type: 2}
+  - _value: 256
+    _color: {r: 0.18039215, g: 0.48028, b: 0.9254902, a: 0}
+    _material: {fileID: 2100000, guid: 265f959b5cabf49e88c82fcd1046733d, type: 2}
+  - _value: 512
+    _color: {r: 0.18039215, g: 0.8527685, b: 0.9254902, a: 0}
+    _material: {fileID: 2100000, guid: d4148c012b4794062b87e1e12d453505, type: 2}
+  - _value: 1024
+    _color: {r: 0.18039215, g: 0.9254902, b: 0.7051314, a: 0}
+    _material: {fileID: 2100000, guid: 809e2d3dad4b14631b03e94d88bced9a, type: 2}
+  - _value: 2048
+    _color: {r: 0.18039215, g: 0.9254902, b: 0.4542191, a: 0}
+    _material: {fileID: 2100000, guid: 8640c1cf9bd4b4de28cc76c5b518ba93, type: 2}

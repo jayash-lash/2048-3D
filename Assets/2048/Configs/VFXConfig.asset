@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a8ad7d5ee84a59bf38b7014c365ef3, type: 3}
+  m_Name: VFXConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.VFXConfig
+  _mergeVFXPrefab: {fileID: 6971950390055852380, guid: 9f53887dd85239e47b2d1af8c2f24cad, type: 3}
+  _mergeVFXPoolSize: 10
+  _mergeVFXDuration: 1
+  _spawnVFXPrefab: {fileID: 100000, guid: 40f59a5c9ded7444fbb6769e02d1b1b9, type: 3}
+  _spawnVFXPoolSize: 5
+  _scorePopupPrefab: {fileID: 983621453933707400, guid: 1f6aa402c8cfd435c81a1e5dff232766, type: 3}
+  _scorePopupPoolSize: 5

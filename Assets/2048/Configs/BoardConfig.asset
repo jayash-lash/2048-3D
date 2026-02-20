@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8373938a35546d68bd55553357f66f5, type: 3}
+  m_Name: BoardConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.BoardConfig
+  _boardWidth: 18
+  _launchForce: 50
+  _cubeStopCheckDelay: 0.3
+  _maxCubesOnBoard: 60
+  _spawnPositionY: 0.5
+  _spawnPositionZ: -14
+  _dragSensitivity: 1
+  _maxDragOffsetX: 8
+  _mergeJumpForce: 5
+  _mergeJumpHeight: 0.75
+  _minMergeImpulse: 0.75
+  _deathLineZ: 15

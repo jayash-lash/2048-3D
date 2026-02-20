@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5093229d9414624a803d3fe53a16c74, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Installers.GameSettingsInstaller
+  _boardConfig: {fileID: 11400000, guid: 029d27cdf023545258ee361501acf79c, type: 2}
+  _cubeConfig: {fileID: 11400000, guid: 5bb427a48400f4b0fb8f2f5221a43daf, type: 2}
+  _vfxConfig: {fileID: 11400000, guid: 55a93e617c6904b0eb77dfd0c883d9a1, type: 2}
